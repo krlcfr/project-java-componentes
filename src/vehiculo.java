@@ -1,5 +1,5 @@
 //Vehiculo, identificación, marca, modelo, etc.
-public class Vehiculo {
+public class vehiculo {
     //atributos de la clase vehiculo
     private String marca;
     private String modelo;
@@ -8,7 +8,7 @@ public class Vehiculo {
     //atributos de otras clases
 
     //añadir metodo constructor
-    public Vehiculo(String marca, String modelo, String matricula, int anio){
+    public vehiculo(String marca, String modelo, String matricula, int anio){
         this.marca = marca;
         this.modelo = modelo;
         this.matricula = matricula;
